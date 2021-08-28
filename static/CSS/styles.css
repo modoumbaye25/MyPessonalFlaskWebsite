@@ -1,0 +1,263 @@
+/* 
+
+boarder - the outline of the box
+padding  - space between what insdide (img or text) the box and the edges of the box
+margin - spaces between the box and the  next box around it
+
+block elements = takes whole width of webpage
+inline-display element = only takes up as much sapce as it needs to
+change display value - display: inline, display: block, display:inline-block (can change width), display-none(gets rid of element)
+
+font-size: 16px = 100% = 1em or 1rem
+
+z-index: 1, -1 = change what sits on top of what
+*/
+
+body {
+    background-color: #FEF7DC;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #FEF7DC;
+    font-size: 4rem;
+    margin: 20px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #B5EAEA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 20px 0;
+}
+
+h3 {
+    color: #B5EAEA;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+p {
+    color: white;
+    line-height: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 20%;
+margin: 30px auto;
+}
+
+a{
+color: #11999E;
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+li {
+    margin: 10px;
+}
+
+a:hover {
+color: #EAF6F6;
+}
+
+.row {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.bio {
+    /* background-color: #1A1A2E; */
+    background-color: #303A52;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+}
+.professional {
+    font-family: 'Sacramento', cursive;
+}
+.profile-img{
+    width: 25%;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+.about-summary{
+    width: 80%;
+    text-align: left;
+    line-height: 2;
+    margin: 0 auto 0 auto;
+    /*border: solid 2px #EAF6F6;*/
+    /*border-radius: 15px;*/
+    /*padding: 5px;*/
+}
+.about {
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    background-color: #303A52;
+    padding: 20px;
+
+
+}
+.experiences {
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    background-color: #303A52;
+    padding: 20px;
+    line-height: 0.5;
+}
+.experience {
+    margin: 80px auto 10px auto;
+    text-align: left;
+}
+.company {
+    font-weight: bolder;
+    font-size: larger;
+}
+.date-area{
+    font-style: italic;
+
+}
+
+.description {
+    line-height: 1.5;
+    color: #EAF6F6;
+    width: 70%;
+    display: none;
+    margin: 50px auto;
+    text-align: left;
+}
+
+.skills {
+    background-color: #303A52;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+table{
+    border-spacing: 30px;
+    border-collapse: separate;
+    text-align: center;
+    margin:10px auto 20px auto;
+    width: 100%;
+}
+td {
+    color: white;
+    font-size: larger;
+}
+
+.certs td{
+    padding: 0;
+}
+
+.footer{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+.footer:hover {
+color: #000202;
+}
+
+.side{
+    background-color: #303A52;
+    margin: 10px auto 10px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: left;
+    line-height: 1;
+}
+
+.aws-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+
+.bank-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 70px;
+}
+.certs-img {
+    width: 100%;
+    border-radius: 50%;
+}
+.gif-cert {
+    width: 30%; 
+    float: left; 
+    padding: 0px 10px;
+}
+.gif-edu{
+    width: 30%; 
+    float: left; 
+    padding: 10px 10px;
+}
+
+.invisible-devider{
+    border: dotted #303A52 6px;
+    border-bottom: none;
+    width: 1%;
+    margin: 50px auto;
+}
+
+
+.copyright {
+    color: #030303;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.contact-me {
+    margin-bottom: 30px;
+    margin: 10px auto 10px auto;
+    padding: 50px 0 20px;
+  }
+
+.certs-btn{
+    margin: 0;
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    display:block;
+    border: 2px solid #303A52;
+}
+.certs-btn:hover{
+    border: 2px solid #30e3cb;
+}
+
+.description-btn {
+    background-color: #303A52; /* Green */
+    border: solid 1px white;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+.description-btn:hover {
+    background-color: #303A52;
+    border: solid 1px #30e3cb;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
