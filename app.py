@@ -17,6 +17,17 @@ def projects():
     random_number = random.randint(1, 10)
     return render_template('projects.html', num=random_number)
 
+@app.route("/games")
+def games():
+    return render_template('games.html')
+
+@app.route("/About")
+def about():
+    return render_template('about.html')
+
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)

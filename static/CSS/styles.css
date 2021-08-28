@@ -50,17 +50,17 @@ p {
 
 
 hr {
-border: dotted #EAF6F6 6px;
-border-bottom: none;
-width: 20%;
-margin: 30px auto;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 20%;
+    margin: 30px auto;
 }
 
 a{
-color: #11999E;
-font-family: 'Montserrat', sans-serif;
-margin: 10px 20px;
-text-decoration: none;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
 }
 li {
     margin: 10px;
@@ -68,6 +68,17 @@ li {
 
 a:hover {
 color: #EAF6F6;
+}
+
+.navbar {
+    background-color: #4B6587;
+}
+.navbar-brand {
+    width: 10%;
+}
+.navbar-brand img{
+    width: 100%;
+    min-width: 150px;
 }
 
 .row {
@@ -91,18 +102,26 @@ color: #EAF6F6;
     border-radius: 50%;
 }
 .about-summary{
-    width: 95%;
+    width: 70%;
+    min-width: 360px;
     text-align: left;
     margin: 0 auto 0 auto;
 }
 .about-summary p {
     line-height: 1.5;
+    color: #FEF7DC;
+    font-size: 1.1rem;
 }
 .about {
     margin: 10px auto 10px auto;
     border-radius: 15px;
     background-color: #303A52;
     padding: 20px;
+}
+.about img{
+    width: 10%;
+    float: left;
+    border-radius: 50%;
 }
 .more-summary {
     display: none;
@@ -141,7 +160,7 @@ color: #EAF6F6;
     width: 70%;
     min-width: 360px;
     display: none;
-    margin: 50px auto;
+    margin: 100px auto;
     text-align: left;
 }
 
@@ -149,7 +168,7 @@ color: #EAF6F6;
     background-color: #303A52;
     margin: 10px auto 10px auto;
     border-radius: 15px;
-    padding: 20px;
+    padding: 40px 20px;
 }
 table{
     border-spacing: 30px;
@@ -177,6 +196,7 @@ td {
     margin: 10px 20px;
     text-decoration: none;
     font-size: 1.1em;
+    padding: 0  15px;
   }
   
 .footer:hover {
@@ -235,15 +255,28 @@ color: #000202;
 
 .copyright {
     color: #030303;
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     padding: 20px 0;
 }
 
 .contact-me {
     margin-bottom: 30px;
     margin: 10px auto 10px auto;
-    padding: 50px 0 20px;
+    padding: 150px 0 20px;
+
   }
+
+.contact-me img{
+    width: 20%;
+    min-width: 200px;
+}
+
+.contact-me hr {
+    border: 0;
+    width: 1px;
+    padding: 0;
+    margin: 10px;
+}
 
 .certs-btn{
     margin: 0;
