@@ -18,3 +18,12 @@ $("#aws-btn").on("click", function() {
         $(this).text("Show Description")
     }
 })
+$("#more-summary-btn").on("click", function() {
+    $(".more-summary").toggle();
+    if ($(this).text = "see more") {
+        $(this).text("see less")
+    }
+    else {
+        $(this).text("see more")
+    }
+})

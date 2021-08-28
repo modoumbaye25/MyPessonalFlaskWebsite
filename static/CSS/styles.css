@@ -91,21 +91,27 @@ color: #EAF6F6;
     border-radius: 50%;
 }
 .about-summary{
-    width: 80%;
+    width: 95%;
     text-align: left;
     line-height: 2;
     margin: 0 auto 0 auto;
-    /*border: solid 2px #EAF6F6;*/
-    /*border-radius: 15px;*/
-    /*padding: 5px;*/
 }
 .about {
     margin: 10px auto 10px auto;
     border-radius: 15px;
     background-color: #303A52;
     padding: 20px;
-
-
+}
+.more-summary {
+    display: none;
+}
+#more-summary-btn {
+    padding: 0;
+    margin: 0;
+    color: #B5EAEA;
+}
+#more-summary-btn span {
+    color: #EAF6F6;
 }
 .experiences {
     margin: 10px auto 10px auto;
@@ -154,6 +160,10 @@ td {
     font-size: larger;
 }
 
+.certs{
+    text-align: left;
+}
+
 .certs td{
     padding: 0;
 }
@@ -182,6 +192,7 @@ color: #000202;
 
 .aws-img {
     width: 20%;
+    min-width: 130px;
     float: left;
     margin-right: 30px;
     margin-bottom: 70px;
@@ -189,12 +200,14 @@ color: #000202;
 
 .bank-img {
     width: 20%;
+    min-width: 130px;
     float: left;
     margin-right: 30px;
     margin-bottom: 70px;
 }
 .certs-img {
     width: 100%;
+    max-width: 130px;
     border-radius: 50%;
 }
 .gif-cert {
@@ -231,8 +244,7 @@ color: #000202;
 .certs-btn{
     margin: 0;
     border-radius: 50%;
-    height: auto;
-    width: auto;
+    width: fit-content;
     display:block;
     border: 2px solid #303A52;
 }
