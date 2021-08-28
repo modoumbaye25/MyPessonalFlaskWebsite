@@ -93,8 +93,10 @@ color: #EAF6F6;
 .about-summary{
     width: 95%;
     text-align: left;
-    line-height: 2;
     margin: 0 auto 0 auto;
+}
+.about-summary p {
+    line-height: 1.5;
 }
 .about {
     margin: 10px auto 10px auto;
@@ -195,15 +197,16 @@ color: #000202;
     min-width: 130px;
     float: left;
     margin-right: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 110px;
 }
+
 
 .bank-img {
     width: 20%;
     min-width: 130px;
     float: left;
     margin-right: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
 }
 .certs-img {
     width: 100%;
