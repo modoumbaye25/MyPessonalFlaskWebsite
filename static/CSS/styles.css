@@ -147,7 +147,8 @@ color: #EAF6F6;
 }
 .company {
     font-weight: normal;
-    font-size: larger;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .date-area{
     font-style: italic;
@@ -315,7 +316,14 @@ color: #000202;
 }
 
 #more-summary-btn  {
-    border: none;
-    background-color: transparent;
+    background-color: #303A52; /* Green */
+    border: solid 1px #303A52;
+    color: #B5EAEA;
+    padding: 7px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+
+
 }
 

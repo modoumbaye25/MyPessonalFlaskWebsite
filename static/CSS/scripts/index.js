@@ -25,7 +25,7 @@ $("#bank-btn").on("click", function() {
 $("#more-summary-btn").on("click", function() {
     $(".more-summary").toggle();
     $(this).text(function(i, text){
-          return text === "... see more" ? "see less" : "... see more";
+          return text === ". . . see more" ? "see less" : ". . . see more";
       })
 })
 
