@@ -17,35 +17,35 @@ body {
     background-color: #FEF7DC;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     color: #FEF7DC;
     font-size: 4rem;
     margin: 20px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Merienda', cursive;
 }
 
 h2 {
     color: #B5EAEA;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
-    font-weight: normal;
+
     padding: 20px 0;
 }
 
 h3 {
     color: #B5EAEA;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
     padding-bottom: 10px;
 }
 
 p {
     color: white;
     line-height: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -94,7 +94,7 @@ color: #EAF6F6;
     border-radius: 15px;
 }
 .professional {
-    font-family: 'Sacramento', cursive;
+    font-family: cursive;
 }
 .profile-img{
     width: 25%;
@@ -109,7 +109,7 @@ color: #EAF6F6;
 }
 .about-summary p {
     line-height: 1.5;
-    color: #FEF7DC;
+    color: white;
     font-size: 1.1rem;
 }
 .about {
@@ -132,7 +132,7 @@ color: #EAF6F6;
     color: #B5EAEA;
 }
 #more-summary-btn span {
-    color: #EAF6F6;
+    color: white;
 }
 .experiences {
     margin: 10px auto 10px auto;
@@ -146,7 +146,7 @@ color: #EAF6F6;
     text-align: left;
 }
 .company {
-    font-weight: bolder;
+    font-weight: normal;
     font-size: larger;
 }
 .date-area{
@@ -156,7 +156,7 @@ color: #EAF6F6;
 
 .description {
     line-height: 1.5;
-    color: #EAF6F6;
+    color: white;
     width: 70%;
     min-width: 360px;
     display: none;
@@ -176,10 +176,14 @@ table{
     text-align: center;
     margin:10px auto 20px auto;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 td {
     color: white;
     font-size: larger;
+}
+ul {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .certs{
@@ -308,5 +312,10 @@ color: #000202;
     display: inline-block;
     border-radius: 10px;
     font-size: 0.8rem;
+}
+
+#more-summary-btn  {
+    border: none;
+    background-color: transparent;
 }
 
