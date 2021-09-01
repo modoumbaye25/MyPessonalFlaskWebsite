@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo service nginx start
 cd /home/ec2-user/MyPersonalFlaskWebsite
-sudo gunicorn app:app
+gunicorn app:app
