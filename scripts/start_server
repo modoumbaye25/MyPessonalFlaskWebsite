@@ -1,3 +1,4 @@
 #!/bin/bash
 sudo service nginx start
+pip3 install gunicorn
 /home/ec2-user/gunicorn_start.txt
