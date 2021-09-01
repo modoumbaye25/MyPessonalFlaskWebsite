@@ -1,4 +1,3 @@
 #!/bin/bash
 sudo service nginx start
-cd /home/ec2-user/MyPersonalFlaskWebsite
-gunicorn app:app
+./gunicorn_start.txt
