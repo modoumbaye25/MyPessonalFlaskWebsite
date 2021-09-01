@@ -1,5 +1,4 @@
 #!/bin/bash
+sudo service nginx start
 cd /home/ec2-use/MyPersonalFlaskWebsite
-pip install -r requirements.txt
-service nginx start
-gunicorn app:app
+sudo gunicorn app:app

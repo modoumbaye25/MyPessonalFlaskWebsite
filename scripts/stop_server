@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo fuser -k 8000/tcp
-service nginx stop
+sudo killall gunicorn
+sudo service nginx stop
