@@ -1,5 +1,4 @@
 #!/bin/bash
-sudo service nginx start
 cd /home/ec2-user/MyPersonalFlaskWebsite
 pip3 install -r requiremetns.txt
-gunicorn app:app
+sudo service nginx restart
