@@ -79,7 +79,7 @@ color: #EAF6F6;
 }
 .navbar-brand img{
     width: 100%;
-    min-width: 150px;
+    min-width: 140px;
 }
 
 .row {
@@ -281,8 +281,8 @@ color: #000202;
   }
 
 .contact-me img{
-    width: 20%;
-    min-width: 200px;
+    width: 10%;
+    min-width: 130px;
 }
 
 .contact-me hr {
