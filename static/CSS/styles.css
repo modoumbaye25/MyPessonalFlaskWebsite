@@ -240,7 +240,7 @@ color: #000202;
     max-width: 140px;
     min-width: 80px;
     border-radius: 50%;
-    /*background-color: white;*/
+    background-color: white;
 }
 .certs-img:hover{
     background-color: white;
