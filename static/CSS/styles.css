@@ -145,6 +145,7 @@ color: #EAF6F6;
 .experience {
     margin: 80px auto 10px auto;
     text-align: left;
+    width: fit-content;
 }
 .company {
     font-weight: normal;
@@ -162,7 +163,7 @@ color: #EAF6F6;
     width: 70%;
     min-width: 360px;
     display: none;
-    margin: 100px auto;
+    margin: 115px auto;
     text-align: left;
 }
 
@@ -170,7 +171,7 @@ color: #EAF6F6;
     background-color: #303A52;
     margin: 10px auto 10px auto;
     border-radius: 15px;
-    padding: 50px 20px;
+    padding: 55px 20px;
 }
 table{
     border-spacing: 30px;
@@ -223,7 +224,7 @@ color: #000202;
     min-width: 130px;
     float: left;
     margin-right: 30px;
-    margin-bottom: 110px;
+    margin-bottom: 120px;
 }
 
 
