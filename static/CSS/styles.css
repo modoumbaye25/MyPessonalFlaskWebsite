@@ -58,7 +58,7 @@ hr {
 
 a{
     color: #11999E;
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     margin: 10px 20px;
     text-decoration: none;
     font-size: 1.1rem;
@@ -198,10 +198,11 @@ ul {
 
 .footer{
     color: #11999E;
-    font-family: 'Open Sans', sans-serif;
-    margin: 10px 20px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-weight: 900;
+    margin: 10px 35px;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 0  15px;
   }
   

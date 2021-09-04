@@ -1,3 +1,1 @@
 #!/bin/bash
-sudo killall gunicorn
-sudo service nginx stop
