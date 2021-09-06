@@ -159,7 +159,7 @@ color: #EAF6F6;
 .description {
     line-height: 1.5;
     color: white;
-    width: 70%;
+    width: 100%;
     min-width: 360px;
     display: none;
     margin: 115px auto;
@@ -179,6 +179,15 @@ table{
     margin:10px auto 20px auto;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
+}
+.carousel-inner table {
+    border-spacing: 10px;
+    text-align: left;
+    margin:10px auto 30px auto;
+    /*border-left: solid coral;*/
+}
+.carousel-inner {
+    padding: 0 10px;
 }
 td {
     color: white;
@@ -221,19 +230,21 @@ color: #000202;
 
 .aws-img {
     width: 20%;
-    min-width: 130px;
+    min-width: 100px;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 120px;
+    margin: 12px 10px 120px 10px;
+    /*margin-right: 30px;*/
+    /*margin-bottom: 120px;*/
 }
 
 
 .bank-img {
     width: 20%;
-    min-width: 130px;
+    min-width: 100px;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 150px;
+    margin: 18px 10px 150px 10px;
+    /*margin-right: 30px;*/
+    /*margin-bottom: 150px;*/
 
 }
 .certs-img {
@@ -242,7 +253,13 @@ color: #000202;
     min-width: 80px;
     border-radius: 50%;
     background-color: white;
+    margin-top: 0;
 }
+
+.side h2 {
+    padding-top: 70px;
+}
+
 .certs-img:hover{
     background-color: white;
 }
@@ -330,3 +347,49 @@ color: #000202;
     color: #B5EAEA;
 }
 
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-bar {
+    width: 100px;
+    height: fit-content;
+    background-color: #ddd; /* Grey background */
+    padding: 0;
+
+}
+
+.skill-level {
+    text-align: right; /* Right-align text */
+
+    color: #303A52; /* White text color */
+    height: 5px;
+    background-color: #04AA6D;
+}
+
+.cloud {width: 80%}
+.web-dev{width: 70%}
+.linux{width: 70%}
+.networking{width: 80%}
+.python{width: 70%}
+.databases{width: 50%}
+.html-css{width: 90%}
+.scripting{width: 70%}
+.troubleshoot{width: 85%}
+.git{width: 70%}
+.datacenter{width: 80%}
+.windows-mac{width: 85%}
+.tcp-ip{width: 80%}
+.routers{width: 80%}
+.fiber{width: 70%}
+.bgb-ospf{width: 70%}
+.computer-hardware{width: 95%}
+.api{width: 80%}
+
+.carousel-control-prev, .carousel-control-next {
+    margin: 0;
+    padding: 0;
+    width: 4%;
+}
