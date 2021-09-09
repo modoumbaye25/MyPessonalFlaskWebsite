@@ -72,14 +72,23 @@ color: #EAF6F6;
 }
 
 .navbar {
-    background-color: #4B6587;
+    max-width: 1415px;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    padding: 0;
 }
 .navbar-brand {
     width: 10%;
+    max-width: 130px;
+    min-width: 100px;
+    padding: 0;
+    margin: 0 20px;
 }
 .navbar-brand img{
     width: 100%;
-    min-width: 140px;
+    /*min-width: 120px;*/
+    /*max-width: 130px;*/
+    padding: 0;
 }
 
 .row {

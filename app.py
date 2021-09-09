@@ -17,11 +17,6 @@ def projects():
     return render_template('projects.html')
 
 
-@app.route("/games")
-def games():
-    return render_template('games.html')
-
-
 @app.route("/About")
 def about():
     return render_template('about.html')
