@@ -15,14 +15,16 @@
                     </p>
                     <h3>--Requirements-</h3>
                     <p>
-                        There will be user-friendly CLI for the user to interact with and from here, user should be able to pass arguments and values that should perform tasks like listing ec2 instances or s3 buckets, change instance state, or upload or delete buckets and objects.
+                        There will be user-friendly CLI for the user to interact with and from here, user should be able to pass arguments and values that should perform tasks
+                        like listing ec2 instances or s3 buckets, change instance state, or upload or delete buckets and objects. User actions will also be logged to an S3 bucket
                     </p>
                     <h3>--System Interactions--</h3>
                     <ul>
                         <li>User friendly CLI will be created with the help of the argparser module </li>
-                        <li>ser requests which are passed as arguments will be handled with boto3 functions</li>
+                        <li>User requests which are passed as arguments will be handled with boto3 functions</li>
                         <li>These boto3 functions and code will talk directly to the AWS service by utilizing its service API and creating a console session with the service(S3, EC2, etc.)</li>
                         <li>IF statements will be implemented that will invoke functions based on arguments passed</li>
+                        <li>User actions will be logged through the use of the logging module. File to store the logs will be created upon running the script and then uploaded to S3</li>
                     </ul>
                     <span class="project-expand">
                         <h3>--Implementation Details--</h3>
@@ -68,7 +70,7 @@
                                     <li>In addition to passing the --list argument, user can also pass the -id argument with the id of the instance to see more information about specific instance</li>
                                 </ul>
                             </li>
-                            <li>When changing instance state, user will the option to apply state change to all of their existing instances or to a specific instance
+                            <li>When changing instance state, user will have the option to apply state change to all of their existing instances or to a specific instance
                                 <ul>
                                     <li>To change the state of all existing instances, simply pass the --state argument with the state option (stop, start, or terminate)</li>
                                     <li>To change the state of a specific instance, along with passing the --state argument with the state option, the -id argument with the id of the instance must also be passed</li>
