@@ -29,4 +29,9 @@ $("#more-summary-btn").on("click", function() {
       })
 })
 
-
+$("#expand-project").on("click", function() {
+    $(".project-expand").toggle();
+    $(this).text(function(i, text){
+          return text === "Expand Project" ? "Colapse Project" : "Expand Project";
+      })
+})
