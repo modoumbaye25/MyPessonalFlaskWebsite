@@ -172,7 +172,7 @@ color: #EAF6F6;
         height: auto;
     }
 }
-@media (max-width:410px) {
+@media (max-width:482px) {
     .skills {
         height: 673px;
     }
