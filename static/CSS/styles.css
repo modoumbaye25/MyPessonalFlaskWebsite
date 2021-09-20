@@ -59,16 +59,18 @@ a:hover {
 color: #EAF6F6;
 }
 
+.navigation-bar{
+    background-color: #212529;
+    /*border-radius: 0 0 10px 10px;*/
+}
+
 .navbar {
-    max-width: 1425px;
+    max-width: 1460px;
     margin: 0 auto;
-    border-radius: 0 0 10px 10px;
-    padding: 0;
+    padding: 0 10px 0 0;
 }
 .navbar-brand {
-    width: 10%;
-    max-width: 150px;
-    min-width: 110px;
+    width: 100px;
     padding: 0;
     margin: 0 20px;
 }
