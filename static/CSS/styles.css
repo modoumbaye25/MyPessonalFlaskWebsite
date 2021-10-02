@@ -11,11 +11,7 @@ h1 {
     margin: 20px auto 0 auto;
     font-family: 'Merienda', cursive;
 }
-@media (max-width:482px) {
-    h1 {
-        font-size: 2.7rem;
-    }
-}
+
 
 h2 {
     color: #B5EAEA;
@@ -101,7 +97,6 @@ color: #EAF6F6;
 }
 .about-summary{
     width: 70%;
-    min-width: 360px;
     text-align: left;
     margin: 0 auto 0 auto;
 }
@@ -140,7 +135,7 @@ color: #EAF6F6;
     line-height: 0.5;
 }
 .experience {
-    margin: 80px auto 10px auto;
+    margin: 40px auto 10px auto;
     text-align: left;
 }
 .company {
@@ -157,9 +152,8 @@ color: #EAF6F6;
     line-height: 1.5;
     color: white;
     width: 100%;
-    min-width: 360px;
     display: none;
-    margin: 115px auto;
+    margin: 20px auto;
     text-align: left;
 }
 
@@ -167,23 +161,10 @@ color: #EAF6F6;
     background-color: #303A52;
     margin: 10px auto 10px auto;
     border-radius: 15px;
-    padding: 55px 20px;
+    padding: 25px 20px;
 }
-@media (max-width:790px) {
-    .skills {
-        height: 434px;
-    }
-}
-@media (max-width:767px) {
-    .skills {
-        height: auto;
-    }
-}
-@media (max-width:482px) {
-    .skills {
-        height: 673px;
-    }
-}
+
+
 table{
     border-spacing: 30px;
     border-collapse: separate;
@@ -248,16 +229,16 @@ color: #000202;
 
 .aws-img {
     width: 20%;
-    min-width: 100px;
+    min-width: 50px;
     float: left;
-    margin: 12px 10px 120px 10px;
+    margin: 5px 10px 85px 10px;
 }
 
 .bank-img {
     width: 20%;
-    min-width: 100px;
+    min-width: 50px;
     float: left;
-    margin: 18px 10px 150px 10px;
+    margin: 10px 10px 85px 10px;
 }
 
 .certs-img {
@@ -304,8 +285,7 @@ color: #000202;
   }
 
 .contact-me img{
-    width: 10%;
-    min-width: 130px;
+    width: 100px;
 }
 
 .contact-me hr {
@@ -391,14 +371,48 @@ color: #000202;
 }
 
 #expand-project {
-    background-color: #303A52;
-    border: none;
-    color: white;
-    padding: 7px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 10px;
-    font-size: 1rem;
+    margin: 20px;
+    display: block;
+    align-content: center;
+}
+
+/*tablet sizes*/
+@media (max-width:790px) {
+    .skills {
+        height: 434px;
+    }
+    .aws-img {
+        margin-bottom: 100px;
+    }
+
+    .bank-img {
+        margin-bottom: 120px;
+    }
+}
+@media (max-width:767px) {
+    .skills {
+        height: auto;
+    }
+}
+
+/*Phone size*/
+@media (max-width:482px) {
+    h1 {
+        font-size: 2.7rem;
+    }
+    .skills {
+        height: 673px;
+    }
+    .about-summary {
+        width: auto;
+    }
+    .aws-img {
+    margin-bottom: 120px;
+    }
+
+    .bank-img {
+        margin-bottom: 150px;
+    }
 }
 
 #expand-project:hover {
