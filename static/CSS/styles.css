@@ -157,6 +157,10 @@ color: #EAF6F6;
     text-align: left;
 }
 
+.description ul {
+    padding-left: 0;
+}
+
 .skills {
     background-color: #303A52;
     margin: 10px auto 10px auto;
@@ -409,9 +413,11 @@ color: #000202;
     .aws-img {
     margin-bottom: 120px;
     }
-
     .bank-img {
         margin-bottom: 150px;
+    }
+    .experiences{
+        padding: 20px 0 0 10px;
     }
 }
 
