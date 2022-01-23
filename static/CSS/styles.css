@@ -426,10 +426,10 @@ color: #000202;
 }
 
 .cloud {width: 70%}
-.web-dev{width: 70%}
+.web-dev{width: 90%}
 .linux{width: 65%}
 .networking{width: 80%}
-.python{width: 70%}
+.python{width: 90%}
 .databases{width: 50%}
 .html-css{width: 80%}
 .scripting{width: 70%}
@@ -448,7 +448,7 @@ color: #000202;
 .adaptability{}
 .teamwork{}
 .deepdive{}
-.security{width: 85%}
+.security{width: 100%}
 
 .carousel-control-prev, .carousel-control-next {
     margin: 0;
