@@ -425,26 +425,26 @@ color: #000202;
     color: #30e3cb;
 }
 
-.cloud {width: 70%}
-.web-dev{width: 90%}
+.cloud {width: 85%}
+.software-dev{width: 95%}
 .linux{width: 65%}
-.networking{width: 80%}
-.python{width: 90%}
-.databases{width: 50%}
-.html-css{width: 80%}
-.scripting{width: 70%}
+.networking{width: 85%}
+.python{width: 95%}
+.java{width: 90%}
+.c-prog{width: 90%}
+.design{width: 85%}
 .troubleshoot{width: 85%}
-.git{width: 70%}
+.git{width: 95%}
 .datacenter{width: 80%}
-.windows-mac{width: 90%}
-.tcp-ip{width: 75%}
+.rootcause-mac{width: 85%}
+.tcp-ip{width: 80%}
 .routers{width: 75%}
 .fiber{width: 70%}
 .bgb-ospf{width: 70%}
 .computer-hardware{width: 95%}
-.api{width: 70%}
-.ci-cd{width: 60%}
-.boto3{width: 85%}
+.devops{width: 85%}
+.ci-cd{width: 85%}
+.boto3{width: 95%}
 .adaptability{}
 .teamwork{}
 .deepdive{}
