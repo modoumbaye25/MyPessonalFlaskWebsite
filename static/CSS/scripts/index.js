@@ -7,6 +7,12 @@
 //         document.querySelector("#bank-btn").textContent = "Show Description";
 //     }
 // });
+$("#soft-eng-btn").on("click", function() {
+    $(".soft-eng-desc").toggle();
+    $(this).text(function(i, text){
+          return text === "Show Description" ? "Hide Description" : "Show Description";
+      })
+})
 
 $("#aws-btn").on("click", function() {
     $(".aws-desc").toggle();
