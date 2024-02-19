@@ -47,6 +47,7 @@ a{
     text-decoration: none;
     font-size: 1.1rem;
 }
+
 li {
     margin: 10px;
 }
@@ -372,6 +373,11 @@ color: #000202;
 
 .project-expand{
     display: none;
+}
+
+.resume{
+    color: #FEF7DC;
+    font-size: 2.5rem;
 }
 
 #expand-project {
